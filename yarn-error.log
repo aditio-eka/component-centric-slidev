@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/aditiopangestu/.npm/_npx/ce6d27e3bf080801/node_modules/.bin:/Users/aditiopangestu/Documents/Codes/node_modules/.bin:/Users/aditiopangestu/Documents/node_modules/.bin:/Users/aditiopangestu/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/opt/homebrew/opt/openjdk@11/bin:/opt/homebrew/opt/openjdk@11/bin:/opt/homebrew/opt/openjdk@11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "component-centric-slidev",
+    "private": true,
+    "scripts": {
+      "build": "slidev build",
+      "dev": "slidev --open",
+      "export": "slidev export"
+    },
+    "dependencies": {
+      "@slidev/cli": "^0.43.0-beta.5",
+      "@slidev/theme-default": "latest",
+      "@slidev/theme-seriph": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
